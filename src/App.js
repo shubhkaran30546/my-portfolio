@@ -13,8 +13,8 @@ function App() {
     <Router>
       <Navbar title="Home" className="navbar" />
       <Routes>
-        <Route path="/my-portfolio/" element={<Profile />} />
-        <Route path="/my-portfolio/" element={<Profile />} />
+        <Route path="/" element={<Profile />} />
+        <Route path="/" element={<Profile />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
