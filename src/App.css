@@ -338,7 +338,7 @@ span {
   color: #f0f8ff;
 }
 
-/* Mobile Styles */
+/*
 @media only screen and (max-width: 600px) {
   .navbar {
     height: 10%;
@@ -357,7 +357,7 @@ span {
   h2 {
     font-size: 200%;
     margin-top: 20px;
-    /* margin-left: 5%; */
+    
   }
 
   .phone {
@@ -390,7 +390,7 @@ span {
   }
 }
 
-/* Tablet Styles */
+
 @media only screen and (max-width: 900px) {
   .navbar {
     height: 8%;
@@ -402,20 +402,7 @@ span {
     width: 70%;
   }
 
-  h1 {
-    font-size: 32px;
-  }
-/* 
-  h2 {
-    font-size: 250%;
-    margin: 30px;
-    
-  } */
 
-  .phone {
-    font-size: 110%;
-    margin-left: 10%;
-  }
 
   .social, .social-link {
     font-size: 140%;
@@ -440,4 +427,4 @@ span {
     flex-direction: column;
     align-items: flex-start;
   }
-}
+ */
