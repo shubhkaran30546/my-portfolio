@@ -21,6 +21,13 @@ export default function Projects() {
           description: 'Contributed to NeuroTech Hackathon, creating FeelFlow—an innovative emotion regulation app.',
           imgSrc: '/feelflow.png',
           link: 'https://github.com/vishwa702/classy-fire'
+        },
+        {
+          title: 'SPARK',
+          description: 'Developed a fully functioning online computer store with customer and order management features.'
+          ,
+          imgSrc: '/spark.png',
+          link: 'https://part3-6yn7.onrender.com'
         }
       ];
     
