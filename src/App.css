@@ -339,7 +339,7 @@ span {
 }
 
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .navbar {
     display: flex;  /* Use Flexbox for layout */
     justify-content: flex-start;  /* Align items to the left */
