@@ -6,13 +6,12 @@ export default function About() {
   return (
     <body>
       <h2 className='aboutheader'>About Me!</h2>
-        <p className="summary">I am a 4th-year Computing Science student at the University of Alberta with a keen interest in software development and a passion for building scalable, efficient, and user-centered applications. My academic journey has provided me with a solid foundation in programming, system design, and cloud computing, with recent hands-on experience in cloud services through the AWS Cloud Practitioner certification. This certification has equipped me with the skills to design and implement cloud-based solutions effectively, enhancing my software development abilities.
+        <p className="summary">I am a recent Computing Science graduate from the University of Alberta with a keen interest in software development, networks, and security. My academic journey has provided me with a solid foundation in programming, system design, and cloud computing. I am an AWS Certified Cloud Practitioner, which has equipped me with the skills to design and implement cloud-based solutions effectively, enhancing my software development abilities.
 
-While software development is my primary focus, I am also dedicated to expanding my understanding of computer networks and security. Currently, I am preparing for the Cisco Certified Network Associate (CCNA) and cybersecurity exams to strengthen my grasp on secure network infrastructures. With a commitment to continuous learning, I look forward to contributing to innovative projects, leveraging both my software development skills and knowledge in security best practices to create reliable and secure applications that drive impactful results.</p>
-      <section className = "about1">
+While software development remains my primary focus, I am also dedicated to expanding my expertise in computer networks and security. Currently, I am preparing for advanced certifications, including the Cisco Certified Network Associate (CCNA) and a security certification, to strengthen my understanding of secure network infrastructures. With a commitment to continuous learning, I look forward to contributing to innovative projects, leveraging my skills in software development, networking, and security to build reliable and secure applications that drive impactful results.</p>     <section className = "about1">
       <h3 className='aboutheader1'>Language & Technologies</h3>
       <p className = "about2">Python Java XML C/C++ HTML CSS  Javascript SQL NoSQL R PHP C#</p>
-      <p className = "about2">React.js Django TensorFlow PyTorch Bootstrap Git AndroidSDK Node.js MongoDB Wireshark Cnet </p>
+      <p className = "about2">React.js SpringBoot Django TensorFlow PyTorch Bootstrap Git AndroidSDK Node.js MongoDB Wireshark Cnet </p>
       <p className = "about2">Azure Nmap Snort AWS ASP.NET</p>
       </section>
       <section className = "about1">

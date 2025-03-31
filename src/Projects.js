@@ -10,6 +10,12 @@ export default function Projects() {
           link: 'https://github.com/qr-check-in/qr-check-in-app'
         },
         {
+          title: 'Cardify',
+          description: 'Developed a dynamic platform enabling professionals to create and share personalized digital business cards integrated with portfolio showcases.',
+          imgSrc: '/logo1.png',
+          link: 'https://github.com/shubhkaran30546/cardify'
+        },
+        {
           title: 'CodeTweet',
           description: 'Developed a collaborative Python project utilizing SQLite for a secure command line interface.'
           ,

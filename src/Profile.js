@@ -16,7 +16,7 @@ export default function Profile() {
         <div className="intro">
           <h1>Hi, My name is <span className="beige">Shubhkaran Dhillon</span> </h1>
           <p className='intro1'>
-          Welcome to my portfolio! I am a dedicated Computer Science student with over a year of hands-on experience in software development. My passion lies in enhancing software quality and contributing to innovative development projects. I excel in problem-solving and continuously seek opportunities to learn and grow. I am eager to bring my skills and enthusiasm to dynamic teams where technology and creativity come together to create impactful solutions.
+          Welcome to my portfolio! I am a dedicated Computing Science graduate with hands-on experience in software development. I have a keen interest in software development, networks, and security and am passionate about building scalable, efficient, and user-centered applications. My expertise lies in enhancing software quality, solving complex problems, and continuously expanding my knowledge in emerging technologies.
           </p>
           <button onClick={handleDownload} className="cv">
           Download CV
