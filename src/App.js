@@ -1,6 +1,5 @@
 // App.js
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import Navbar from './Navbar';
 import Profile from './Profile';
 import Contact from './Contact';
@@ -10,15 +9,14 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
+    <div className="main-content">
       <Navbar title="Home" className="navbar" />
-      <Routes>
-        <Route path="/my-portfolio/" element={<Profile />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
-      </Routes>
-    </Router>
+      <Profile />
+      <About />
+      <Projects />
+      <Contact />
+      <div></div>
+    </div>
   );
 }
 
