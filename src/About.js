@@ -36,7 +36,7 @@ I am passionate about solving real-world problems through clean, maintainable co
   <div className="image-container">
     <img
       className="image-container1"
-      src={process.env.PUBLIC_URL + "/IMG_4993.JPG"}
+      src={process.env.PUBLIC_URL + "/IMG_4993.jpg"}
       alt="Workspace"
     />
   </div>
