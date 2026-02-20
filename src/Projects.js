@@ -30,7 +30,7 @@ export default function Projects() {
       title: 'SPARK',
       description: 'Online computer store with order management features.',
       imgSrc: '/spark.png',
-      link: 'https://part3-6yn7.onrender.com'
+      link: 'hhttps://github.com/shubhkaran30546/spark'
     }
   ];
 
