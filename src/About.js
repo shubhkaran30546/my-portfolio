@@ -1,6 +1,4 @@
 import React, { useEffect } from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGraduationCap, faSchool } from '@fortawesome/free-solid-svg-icons';
 import { GitHubCalendar } from "react-github-calendar";
 
 export default function About() {
@@ -138,7 +136,7 @@ I am passionate about solving real-world problems through clean, maintainable co
   </div>
 </section>
 <section className="education-certifications anim">
-  <h2 class="section-title">Education</h2>
+  <h2 className="section-title">Education</h2>
   <div className="edu-cert-item edu-with-logo">
   <img src={process.env.PUBLIC_URL + '/ualberta.png'} alt="University of Alberta" className="edu-logo" />
   <div>

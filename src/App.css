@@ -72,7 +72,7 @@ body {
 
 .navbar {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   position: fixed;
   top: 0;
@@ -81,6 +81,28 @@ body {
   height: 60px; /* Include padding as part of height */
   background-color: #333;
   z-index: 1000;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 34px;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0 20px;
+}
+
+.navbar li {
+  display: block;
+  margin: 0;
+  font-size: large;
+}
+
+.navbar li a {
+  padding: 14px 0;
+  white-space: nowrap;
 }
 .some {
   border-radius: 50%;
@@ -446,6 +468,114 @@ span {
   overflow-x: auto;
 }
 
+/* Experience */
+.experience-section {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 70px 20px 40px;
+  color: rgba(240, 248, 255, 0.53);
+}
+
+.experience-timeline {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.experience-timeline::before {
+  content: "";
+  position: absolute;
+  top: 12px;
+  bottom: 12px;
+  left: 8px;
+  width: 2px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 132, 0, 0.9),
+    rgba(255, 255, 255, 0.08)
+  );
+}
+
+.experience-item {
+  position: relative;
+  display: grid;
+  grid-template-columns: 18px 1fr;
+  gap: 24px;
+}
+
+.experience-marker {
+  width: 18px;
+  height: 18px;
+  margin-top: 10px;
+  border: 3px solid rgb(255, 132, 0);
+  border-radius: 50%;
+  background-color: #161617;
+  z-index: 1;
+}
+
+.experience-content {
+  padding: 26px 28px;
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.035);
+  transition: transform 0.3s ease, border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.experience-content:hover {
+  transform: translateY(-4px);
+  border-color: rgba(255, 132, 0, 0.45);
+  background-color: rgba(255, 255, 255, 0.055);
+}
+
+.experience-heading {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 18px;
+}
+
+.experience-heading h3 {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.875);
+  font-size: 1.45rem;
+  font-weight: 600;
+}
+
+.experience-role {
+  margin: 8px 0 0;
+  color: rgb(245, 181, 64);
+  font-size: 1.05rem;
+}
+
+.experience-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 6px;
+  min-width: 165px;
+  color: #d1d5db;
+  font-size: 0.98rem;
+  line-height: 1.4;
+}
+
+.experience-highlights {
+  margin: 0;
+  padding-left: 18px;
+  overflow: visible;
+  background-color: transparent;
+  list-style-type: disc;
+}
+
+.experience-highlights li {
+  display: list-item;
+  margin: 0 0 10px;
+  color: rgba(240, 248, 255, 0.62);
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
 /* Projects.css */
 .projects-container {
   display: flex;
@@ -615,14 +745,30 @@ span {
   }
   .navbar {
     display: flex;  /* Use Flexbox for layout */
-    justify-content: flex-start;  /* Align items to the left */
+    justify-content: center;  /* Center items within the navbar */
     align-items: center;  /* Center items vertically within the navbar */
     position: fixed;  /* Fix the navbar at the top */
     top: 0;
     left: 0;
     width: 100%;  /*Full width*/
-    height: 30px;  /* Set a fixed height */
+    height: 44px;  /* Set a fixed height */
     z-index: 1000;  /* Ensure it stays on top of other elements */
+  }
+  .navbar ul {
+    justify-content: flex-start;
+    gap: 18px;
+    margin: 0;
+    padding: 0 14px;
+    overflow-x: auto;
+  }
+  .navbar li {
+    margin: 0;
+    padding-left: 0;
+    font-size: medium;
+    flex: 0 0 auto;
+  }
+  .navbar li a {
+    padding: 12px 0;
   }
   .aboutheader, .tech-title, .section-title{
     text-align: center;
@@ -664,6 +810,50 @@ span {
   }
   .section-title{
     margin-bottom: 30px;
+  }
+  .experience-section {
+    width: 100%;
+    padding: 45px 18px 20px;
+  }
+  .experience-timeline {
+    gap: 24px;
+  }
+  .experience-timeline::before {
+    left: 6px;
+  }
+  .experience-item {
+    grid-template-columns: 14px 1fr;
+    gap: 14px;
+  }
+  .experience-marker {
+    width: 14px;
+    height: 14px;
+    border-width: 2px;
+  }
+  .experience-content {
+    padding: 18px;
+  }
+  .experience-heading {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .experience-heading h3 {
+    font-size: 1.2rem;
+  }
+  .experience-role {
+    font-size: 0.98rem;
+  }
+  .experience-meta {
+    align-items: flex-start;
+    min-width: 0;
+    font-size: 0.9rem;
+  }
+  .experience-highlights {
+    padding-left: 16px;
+  }
+  .experience-highlights li {
+    font-size: 0.92rem;
+    line-height: 1.55;
   }
   .contact-grid{
     display: flex;
