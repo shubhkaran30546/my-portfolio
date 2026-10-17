@@ -1,0 +1,498 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-17T07:13:37.676745+00:00",
+  "title": "Design System: Shubhkaran Dhillon",
+  "extensions": {
+    "colorMeta": {
+      "dusk-950": {
+        "role": "neutral",
+        "displayName": "Dusk Ground",
+        "canonical": "oklch(0.185 0.028 286)",
+        "tonalRamp": [
+          "oklch(0.15 0.03 286)",
+          "oklch(0.25 0.03 286)",
+          "oklch(0.36 0.03 286)",
+          "oklch(0.47 0.03 286)",
+          "oklch(0.58 0.03 286)",
+          "oklch(0.7 0.03 286)",
+          "oklch(0.83 0.03 286)",
+          "oklch(0.95 0.03 286)"
+        ]
+      },
+      "dusk-900": {
+        "role": "neutral",
+        "displayName": "Dusk Raised",
+        "canonical": "oklch(0.225 0.032 286)",
+        "tonalRamp": [
+          "oklch(0.15 0.032 286)",
+          "oklch(0.25 0.032 286)",
+          "oklch(0.36 0.032 286)",
+          "oklch(0.47 0.032 286)",
+          "oklch(0.58 0.032 286)",
+          "oklch(0.7 0.032 286)",
+          "oklch(0.83 0.032 286)",
+          "oklch(0.95 0.032 286)"
+        ]
+      },
+      "dusk-850": {
+        "role": "neutral",
+        "displayName": "Dusk Lift",
+        "canonical": "oklch(0.255 0.034 286)",
+        "tonalRamp": [
+          "oklch(0.15 0.034 286)",
+          "oklch(0.25 0.034 286)",
+          "oklch(0.36 0.034 286)",
+          "oklch(0.47 0.034 286)",
+          "oklch(0.58 0.034 286)",
+          "oklch(0.7 0.034 286)",
+          "oklch(0.83 0.034 286)",
+          "oklch(0.95 0.034 286)"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "oklch(0.34 0.03 288)",
+        "tonalRamp": [
+          "oklch(0.15 0.03 288)",
+          "oklch(0.25 0.03 288)",
+          "oklch(0.36 0.03 288)",
+          "oklch(0.47 0.03 288)",
+          "oklch(0.58 0.03 288)",
+          "oklch(0.7 0.03 288)",
+          "oklch(0.83 0.03 288)",
+          "oklch(0.95 0.03 288)"
+        ]
+      },
+      "rule-strong": {
+        "role": "neutral",
+        "displayName": "Hairline Strong",
+        "canonical": "oklch(0.46 0.035 288)",
+        "tonalRamp": [
+          "oklch(0.15 0.035 288)",
+          "oklch(0.25 0.035 288)",
+          "oklch(0.36 0.035 288)",
+          "oklch(0.47 0.035 288)",
+          "oklch(0.58 0.035 288)",
+          "oklch(0.7 0.035 288)",
+          "oklch(0.83 0.035 288)",
+          "oklch(0.95 0.035 288)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Paper Ink",
+        "canonical": "oklch(0.95 0.015 75)",
+        "tonalRamp": [
+          "oklch(0.15 0.015 75)",
+          "oklch(0.25 0.015 75)",
+          "oklch(0.36 0.015 75)",
+          "oklch(0.47 0.015 75)",
+          "oklch(0.58 0.015 75)",
+          "oklch(0.7 0.015 75)",
+          "oklch(0.83 0.015 75)",
+          "oklch(0.95 0.015 75)"
+        ]
+      },
+      "ink-soft": {
+        "role": "neutral",
+        "displayName": "Soft Ink",
+        "canonical": "oklch(0.83 0.025 70)",
+        "tonalRamp": [
+          "oklch(0.15 0.025 70)",
+          "oklch(0.25 0.025 70)",
+          "oklch(0.36 0.025 70)",
+          "oklch(0.47 0.025 70)",
+          "oklch(0.58 0.025 70)",
+          "oklch(0.7 0.025 70)",
+          "oklch(0.83 0.025 70)",
+          "oklch(0.95 0.025 70)"
+        ]
+      },
+      "ink-faint": {
+        "role": "neutral",
+        "displayName": "Faint Ink",
+        "canonical": "oklch(0.7 0.03 70)",
+        "tonalRamp": [
+          "oklch(0.15 0.03 70)",
+          "oklch(0.25 0.03 70)",
+          "oklch(0.36 0.03 70)",
+          "oklch(0.47 0.03 70)",
+          "oklch(0.58 0.03 70)",
+          "oklch(0.7 0.03 70)",
+          "oklch(0.83 0.03 70)",
+          "oklch(0.95 0.03 70)"
+        ]
+      },
+      "amber": {
+        "role": "primary",
+        "displayName": "Sodium Amber",
+        "canonical": "oklch(0.81 0.14 68)",
+        "tonalRamp": [
+          "oklch(0.15 0.14 68)",
+          "oklch(0.25 0.14 68)",
+          "oklch(0.36 0.14 68)",
+          "oklch(0.47 0.14 68)",
+          "oklch(0.58 0.14 68)",
+          "oklch(0.7 0.14 68)",
+          "oklch(0.83 0.14 68)",
+          "oklch(0.95 0.14 68)"
+        ]
+      },
+      "amber-strong": {
+        "role": "primary",
+        "displayName": "Amber Strong",
+        "canonical": "oklch(0.73 0.165 55)",
+        "tonalRamp": [
+          "oklch(0.15 0.165 55)",
+          "oklch(0.25 0.165 55)",
+          "oklch(0.36 0.165 55)",
+          "oklch(0.47 0.165 55)",
+          "oklch(0.58 0.165 55)",
+          "oklch(0.7 0.165 55)",
+          "oklch(0.83 0.165 55)",
+          "oklch(0.95 0.165 55)"
+        ]
+      },
+      "amber-wash": {
+        "role": "primary",
+        "displayName": "Amber Wash",
+        "canonical": "oklch(0.81 0.14 68 / 0.1)",
+        "tonalRamp": [
+          "oklch(0.15 0.14 68)",
+          "oklch(0.25 0.14 68)",
+          "oklch(0.36 0.14 68)",
+          "oklch(0.47 0.14 68)",
+          "oklch(0.58 0.14 68)",
+          "oklch(0.7 0.14 68)",
+          "oklch(0.83 0.14 68)",
+          "oklch(0.95 0.14 68)"
+        ]
+      },
+      "on-amber": {
+        "role": "primary",
+        "displayName": "On-Amber",
+        "canonical": "oklch(0.2 0.03 286)",
+        "tonalRamp": [
+          "oklch(0.15 0.03 286)",
+          "oklch(0.25 0.03 286)",
+          "oklch(0.36 0.03 286)",
+          "oklch(0.47 0.03 286)",
+          "oklch(0.58 0.03 286)",
+          "oklch(0.7 0.03 286)",
+          "oklch(0.83 0.03 286)",
+          "oklch(0.95 0.03 286)"
+        ]
+      },
+      "haze": {
+        "role": "tertiary",
+        "displayName": "Horizon Haze",
+        "canonical": "oklch(0.8 0.07 25)",
+        "tonalRamp": [
+          "oklch(0.15 0.07 25)",
+          "oklch(0.25 0.07 25)",
+          "oklch(0.36 0.07 25)",
+          "oklch(0.47 0.07 25)",
+          "oklch(0.58 0.07 25)",
+          "oklch(0.7 0.07 25)",
+          "oklch(0.83 0.07 25)",
+          "oklch(0.95 0.07 25)"
+        ]
+      },
+      "sage": {
+        "role": "secondary",
+        "displayName": "Planter Sage",
+        "canonical": "oklch(0.8 0.085 145)",
+        "tonalRamp": [
+          "oklch(0.15 0.085 145)",
+          "oklch(0.25 0.085 145)",
+          "oklch(0.36 0.085 145)",
+          "oklch(0.47 0.085 145)",
+          "oklch(0.58 0.085 145)",
+          "oklch(0.7 0.085 145)",
+          "oklch(0.83 0.085 145)",
+          "oklch(0.95 0.085 145)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "name": {
+        "displayName": "Name",
+        "purpose": "Hero name only, two staggered lines, second line amber."
+      },
+      "display": {
+        "displayName": "Display",
+        "purpose": "Section-head words, featured title, Signal numerals, release versions, contact sign-off; size set per the specimen ladder."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "The hero claim."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Company names, index titles, contact link names, sub-heads."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running copy, 52-68ch."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Compressed margin notes, figcaptions, tags, meta lines. Never mono."
+      },
+      "mono": {
+        "displayName": "Mono",
+        "purpose": "Times, dates, versions, and the hero status strip readout only."
+      }
+    },
+    "typeLadder": [
+      {
+        "name": "step--1",
+        "value": "clamp(0.78rem, 0.76rem + 0.1vw, 0.84rem)"
+      },
+      {
+        "name": "step-0",
+        "value": "clamp(1rem, 0.97rem + 0.15vw, 1.0625rem)"
+      },
+      {
+        "name": "step-1",
+        "value": "clamp(1.2rem, 1.1rem + 0.45vw, 1.45rem)"
+      },
+      {
+        "name": "step-2",
+        "value": "clamp(1.45rem, 1.25rem + 0.9vw, 2rem)"
+      },
+      {
+        "name": "step-3",
+        "value": "clamp(1.9rem, 1.5rem + 1.9vw, 3.1rem)"
+      },
+      {
+        "name": "step-4",
+        "value": "clamp(2.6rem, 1.9rem + 3.4vw, 5rem)"
+      },
+      {
+        "name": "step-5",
+        "value": "clamp(3rem, 1.6rem + 6.6vw, 7.5rem)"
+      },
+      {
+        "name": "step-6",
+        "value": "clamp(3.1rem, 0.9rem + 10.6vw, 11.5rem)"
+      }
+    ],
+    "sectionHeadLadder": [
+      {
+        "section": "experience, projects",
+        "size": "step-5"
+      },
+      {
+        "section": "signal, stack",
+        "size": "step-4"
+      },
+      {
+        "section": "credentials",
+        "size": "step-3"
+      }
+    ],
+    "shadows": [
+      {
+        "name": "floating-capsule",
+        "value": "0 10px 30px -12px oklch(0.1 0.03 286 / 0.7)",
+        "purpose": "Fixed nav capsule only."
+      },
+      {
+        "name": "gutter-preview",
+        "value": "0 24px 50px -20px oklch(0.08 0.03 286 / 0.85)",
+        "purpose": "Project screenshot surfacing in the left gutter on hover."
+      },
+      {
+        "name": "status-halo",
+        "value": "0 0 0 3px oklch(0.8 0.085 145 / 0.18)",
+        "purpose": "Sage ring around the status dot."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Default curve for state changes, reveals, and the hero entrance."
+      },
+      {
+        "name": "ease-in-out",
+        "value": "cubic-bezier(0.65, 0, 0.35, 1)",
+        "purpose": "Defined symmetric curve."
+      },
+      {
+        "name": "dur-s",
+        "value": "180ms",
+        "purpose": "Color and background state changes."
+      },
+      {
+        "name": "dur-m",
+        "value": "420ms",
+        "purpose": "Small transforms: arrow nudges, nav dot, sheet items, preview unclip."
+      },
+      {
+        "name": "dur-l",
+        "value": "900ms",
+        "purpose": "Hero name rise; entrance-scale movement."
+      },
+      {
+        "name": "uptime-line",
+        "value": "2px fixed amber line, transform: scaleX(scroll progress), rAF-throttled",
+        "purpose": "The single signature motion."
+      },
+      {
+        "name": "reveal-gate",
+        "value": "@media (prefers-reduced-motion: no-preference) { .js [data-inview='false'] ... }",
+        "purpose": "Every section reveal is scoped this way so content stays visible without JS or with reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sm",
+        "value": "40rem"
+      },
+      {
+        "name": "head",
+        "value": "48rem"
+      },
+      {
+        "name": "md",
+        "value": "52rem"
+      },
+      {
+        "name": "lg",
+        "value": "60rem",
+        "note": "Inline nav, 100svh hero, plate rises into the name, dusk scrim on plate."
+      },
+      {
+        "name": "xl",
+        "value": "80rem",
+        "note": "Signal table goes to four columns."
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The one main action per region (Email me).",
+      "html": "<a class=\"ds-btn ds-btn-primary\" href=\"#\">Email me <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><line x1=\"7\" y1=\"17\" x2=\"17\" y2=\"7\"/><polyline points=\"7 7 17 7 17 17\"/></svg></a>",
+      "css": ".ds-btn{font-family:'Archivo Variable','Archivo',ui-sans-serif,system-ui,sans-serif;display:inline-flex;align-items:center;gap:.6em;min-height:3rem;padding:.7em 1.2em;border-radius:999px;font-weight:600;text-decoration:none;border:1px solid transparent;background:transparent;cursor:pointer;transition:background-color 180ms cubic-bezier(0.16,1,0.3,1),color 180ms cubic-bezier(0.16,1,0.3,1),border-color 180ms cubic-bezier(0.16,1,0.3,1);} .ds-btn svg{width:1.05em;height:1.05em;flex:none;} .ds-btn-primary{background:var(--amber,oklch(0.81 0.14 68));color:var(--on-amber,oklch(0.2 0.03 286));} .ds-btn-primary:hover{background:var(--ink,oklch(0.95 0.015 75));} .ds-btn:focus-visible{outline:2px solid var(--amber,oklch(0.81 0.14 68));outline-offset:3px;}"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Secondary actions: résumé download, view source, copy email.",
+      "html": "<a class=\"ds-btn-ghost\" href=\"#\">Résumé <span class=\"ds-btn-ghost-note\">PDF</span></a>",
+      "css": ".ds-btn-ghost{font-family:'Archivo Variable','Archivo',ui-sans-serif,system-ui,sans-serif;display:inline-flex;align-items:center;gap:.6em;min-height:3rem;padding:.7em 1.2em;border-radius:999px;font-weight:600;text-decoration:none;background:transparent;border:1px solid var(--rule-strong,oklch(0.46 0.035 288));color:var(--ink,oklch(0.95 0.015 75));transition:color 180ms cubic-bezier(0.16,1,0.3,1),border-color 180ms cubic-bezier(0.16,1,0.3,1);} .ds-btn-ghost-note{font-size:.72rem;font-weight:500;font-variation-settings:'wdth' 78;color:var(--ink-faint,oklch(0.7 0.03 70));} .ds-btn-ghost:hover{border-color:var(--amber,oklch(0.81 0.14 68));color:var(--amber,oklch(0.81 0.14 68));} .ds-btn-ghost:focus-visible{outline:2px solid var(--amber,oklch(0.81 0.14 68));outline-offset:3px;}"
+    },
+    {
+      "name": "Nav Capsule",
+      "kind": "nav",
+      "refersTo": "nav-capsule",
+      "description": "Fixed floating pill with monogram and inline section links; current link gets an amber dot.",
+      "html": "<nav class=\"ds-nav\"><a class=\"ds-nav-home\" href=\"#\">SD<span class=\"ds-nav-dot\"></span></a><a class=\"ds-nav-link\" href=\"#\" aria-current=\"true\">Experience</a><a class=\"ds-nav-link\" href=\"#\">Projects</a><a class=\"ds-nav-link\" href=\"#\">Contact</a></nav>",
+      "css": ".ds-nav{font-family:'Archivo Variable','Archivo',ui-sans-serif,system-ui,sans-serif;display:inline-flex;align-items:center;gap:.5rem;padding:.3rem;background:var(--dusk-900,oklch(0.225 0.032 286));border:1px solid var(--rule,oklch(0.34 0.03 288));border-radius:999px;box-shadow:0 10px 30px -12px oklch(0.1 0.03 286 / 0.7);} .ds-nav-home{position:relative;display:grid;place-items:center;width:2.6rem;height:2.6rem;border-radius:50%;font-weight:800;font-size:.85rem;font-variation-settings:'wdth' 125;text-decoration:none;color:var(--ink,oklch(0.95 0.015 75));background:var(--dusk-850,oklch(0.255 0.034 286));} .ds-nav-dot{position:absolute;right:.35rem;top:.35rem;width:.4rem;height:.4rem;border-radius:50%;background:var(--sage,oklch(0.8 0.085 145));} .ds-nav-link{display:inline-flex;align-items:center;gap:.45em;height:2.6rem;padding:0 .95rem;border-radius:999px;font-size:.92rem;font-weight:500;color:var(--ink-soft,oklch(0.83 0.025 70));text-decoration:none;transition:color 180ms cubic-bezier(0.16,1,0.3,1),background-color 180ms cubic-bezier(0.16,1,0.3,1);} .ds-nav-link::before{content:'';width:.4rem;height:.4rem;border-radius:50%;background:var(--amber,oklch(0.81 0.14 68));transform:scale(0);transition:transform 420ms cubic-bezier(0.16,1,0.3,1);} .ds-nav-link:hover{color:var(--ink,oklch(0.95 0.015 75));background:var(--dusk-850,oklch(0.255 0.034 286));} .ds-nav-link[aria-current]{color:var(--ink,oklch(0.95 0.015 75));} .ds-nav-link[aria-current]::before{transform:scale(1);} .ds-nav-link:focus-visible{outline:2px solid var(--amber,oklch(0.81 0.14 68));outline-offset:3px;}"
+    },
+    {
+      "name": "Tag",
+      "kind": "chip",
+      "refersTo": "tag",
+      "description": "Compressed label in a hairline pill; stack lists on the featured project.",
+      "html": "<ul class=\"ds-tags\"><li>Terraform</li><li>AWS</li><li>PostgreSQL</li></ul>",
+      "css": ".ds-tags{display:flex;flex-wrap:wrap;gap:.4rem;margin:0;padding:0;list-style:none;} .ds-tags li{font-family:'Archivo Variable','Archivo',ui-sans-serif,system-ui,sans-serif;font-size:clamp(0.78rem,0.76rem + 0.1vw,0.84rem);font-variation-settings:'wdth' 78;font-weight:500;padding:.3em .7em;border:1px solid var(--rule-strong,oklch(0.46 0.035 288));border-radius:999px;color:var(--ink-soft,oklch(0.83 0.025 70));}"
+    },
+    {
+      "name": "Section Head",
+      "kind": "custom",
+      "refersTo": "section-head",
+      "description": "One oversized expanded word with a compressed margin note beside it, closed by a hairline.",
+      "html": "<div class=\"ds-head\"><h2>Signal</h2><p>Measured in production, 2026</p></div>",
+      "css": ".ds-head{font-family:'Archivo Variable','Archivo',ui-sans-serif,system-ui,sans-serif;display:grid;grid-template-columns:1fr auto;gap:2.25rem;align-items:end;padding-bottom:1.5rem;border-bottom:1px solid var(--rule,oklch(0.34 0.03 288));color:var(--ink,oklch(0.95 0.015 75));} .ds-head h2{margin:0;font-size:clamp(2.6rem,1.9rem + 3.4vw,5rem);font-weight:800;font-variation-settings:'wdth' 118;line-height:.9;letter-spacing:-0.035em;} .ds-head p{margin:0;padding-bottom:.6em;text-align:right;max-width:30ch;font-weight:500;font-variation-settings:'wdth' 78;line-height:1.4;color:var(--ink-faint,oklch(0.7 0.03 70));}"
+    },
+    {
+      "name": "Status Strip",
+      "kind": "custom",
+      "refersTo": "status-strip",
+      "description": "The hero instrument line: sage status, location, live clock, sunset in haze, current role in amber.",
+      "html": "<ul class=\"ds-status\"><li class=\"ds-up\"><span class=\"ds-dot\"></span> Operational</li><li>Edmonton, AB</li><li>01:05:14 <span class=\"ds-zone\">MDT</span></li><li class=\"ds-sun\">Sunset 18:35</li><li class=\"ds-now\">Currently: SWE @ FastTrack</li></ul>",
+      "css": ".ds-status{display:flex;flex-wrap:wrap;align-items:center;gap:.35rem 0;margin:0;padding:0 0 1rem;list-style:none;border-bottom:1px solid var(--rule,oklch(0.34 0.03 288));font-family:'Fragment Mono',ui-monospace,Menlo,monospace;font-size:clamp(0.78rem,0.76rem + 0.1vw,0.84rem);font-variant-numeric:tabular-nums;color:var(--ink-soft,oklch(0.83 0.025 70));} .ds-status li{display:inline-flex;align-items:center;gap:.5em;white-space:nowrap;} .ds-status li+li::before{content:'';width:1px;height:.9em;margin-inline:.85em;background:var(--rule-strong,oklch(0.46 0.035 288));} .ds-up{color:var(--sage,oklch(0.8 0.085 145));} .ds-zone{color:var(--ink-faint,oklch(0.7 0.03 70));} .ds-sun{color:var(--haze,oklch(0.8 0.07 25));} .ds-now{color:var(--amber,oklch(0.81 0.14 68));} .ds-dot{display:inline-block;width:.55em;height:.55em;border-radius:50%;background:var(--sage,oklch(0.8 0.085 145));box-shadow:0 0 0 3px oklch(0.8 0.085 145 / 0.18);}"
+    },
+    {
+      "name": "Changelog Release",
+      "kind": "custom",
+      "description": "A role set as a release: display version (amber when current) on a hairline deploy line, mono dates, ruled notes with haze plus markers.",
+      "html": "<div class=\"ds-release\"><div class=\"ds-tag\"><span class=\"ds-ver\">v3.0</span><p class=\"ds-dates\">2026-03 → now</p></div><div><h3 class=\"ds-co\">FastTrack Technologies</h3><ul class=\"ds-notes\"><li>Scaled the platform to <mark>150K+</mark> users at <mark>99.9%</mark> uptime.</li><li>Cut cloud cost about <mark>20%</mark>.</li></ul></div></div>",
+      "css": ".ds-release{font-family:'Archivo Variable','Archivo',ui-sans-serif,system-ui,sans-serif;display:grid;grid-template-columns:minmax(9rem,3fr) 9fr;gap:2.25rem;color:var(--ink,oklch(0.95 0.015 75));} .ds-tag{padding-left:1.5rem;border-left:1px solid var(--amber,oklch(0.81 0.14 68));} .ds-ver{display:block;font-size:clamp(2.6rem,1.9rem + 3.4vw,5rem);font-weight:800;font-variation-settings:'wdth' 118;line-height:.9;letter-spacing:-0.04em;color:var(--amber,oklch(0.81 0.14 68));} .ds-dates{margin:.75rem 0 0;font-family:'Fragment Mono',ui-monospace,monospace;font-size:.84rem;} .ds-co{margin:0;font-size:clamp(1.45rem,1.25rem + 0.9vw,2rem);font-weight:700;font-variation-settings:'wdth' 106;line-height:1.1;letter-spacing:-0.02em;} .ds-notes{margin:1.5rem 0 0;padding:0;list-style:none;border-top:1px solid var(--rule,oklch(0.34 0.03 288));max-width:68ch;} .ds-notes li{position:relative;padding:.75rem 0 .75rem 1.6rem;border-bottom:1px solid var(--rule,oklch(0.34 0.03 288));color:var(--ink-soft,oklch(0.83 0.025 70));} .ds-notes li::before{content:'+';position:absolute;left:.2rem;font-family:'Fragment Mono',monospace;color:var(--haze,oklch(0.8 0.07 25));} .ds-notes mark{background:none;color:var(--amber,oklch(0.81 0.14 68));font-weight:600;white-space:nowrap;}"
+    },
+    {
+      "name": "Index Row",
+      "kind": "custom",
+      "description": "A ruled project row; hover turns title and arrow amber and nudges the arrow up-right.",
+      "html": "<a class=\"ds-row\" href=\"#\"><span class=\"ds-row-title\">CodeTweet</span><span class=\"ds-row-purpose\">A Python and SQLite command-line client.</span><span class=\"ds-row-tags\">Python · SQLite</span><svg class=\"ds-row-arrow\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><line x1=\"7\" y1=\"17\" x2=\"17\" y2=\"7\"/><polyline points=\"7 7 17 7 17 17\"/></svg></a>",
+      "css": ".ds-row{font-family:'Archivo Variable','Archivo',ui-sans-serif,system-ui,sans-serif;display:grid;grid-template-columns:minmax(10rem,1.1fr) 1.6fr minmax(8rem,.9fr) auto;column-gap:1.5rem;align-items:baseline;padding-block:1.5rem;border-bottom:1px solid var(--rule,oklch(0.34 0.03 288));text-decoration:none;color:var(--ink,oklch(0.95 0.015 75));} .ds-row-title{font-size:clamp(1.45rem,1.25rem + 0.9vw,2rem);font-weight:750;font-variation-settings:'wdth' 110;letter-spacing:-0.025em;line-height:1.1;transition:color 180ms cubic-bezier(0.16,1,0.3,1);} .ds-row-purpose{color:var(--ink-soft,oklch(0.83 0.025 70));} .ds-row-tags{font-size:.84rem;font-weight:500;font-variation-settings:'wdth' 78;color:var(--haze,oklch(0.8 0.07 25));} .ds-row-arrow{width:1.4rem;height:1.4rem;align-self:center;color:var(--ink-faint,oklch(0.7 0.03 70));transition:transform 420ms cubic-bezier(0.16,1,0.3,1),color 180ms cubic-bezier(0.16,1,0.3,1);} .ds-row:hover .ds-row-title,.ds-row:focus-visible .ds-row-title{color:var(--amber,oklch(0.81 0.14 68));} .ds-row:hover .ds-row-arrow,.ds-row:focus-visible .ds-row-arrow{color:var(--amber,oklch(0.81 0.14 68));transform:translate(.2rem,-.2rem);} .ds-row:focus-visible{outline:2px solid var(--amber,oklch(0.81 0.14 68));outline-offset:3px;}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Dusk Almanac",
+    "overview": "The page is an ephemeris for a running system: precise tables about warm light. The ground is the sky just after the sun drops (a dusk indigo-charcoal), the ink is warm paper-white under sodium light, and the one accent is sodium amber, evolved from the incumbent orange. Every reading on the page is set like an almanac entry: a hairline rule above, a huge specimen word or numeral, and a tiny compressed margin note beside it.\n\nDensity is editorial rather than dashboard. Sections are separated by generous vertical air (up to 10rem) and held together by 1px rules, not by surfaces. One typeface, Archivo Variable, carries everything; its width axis supplies the tension, stretching to 112-118 for specimens and compressing to 78 for annotations. Fragment Mono appears only where the page reports a time, a date, or a version. The page rejects the centered-hero-plus-card-grid developer template and the cold-blue terminal.\n\nMotion is sparse and authored. There is one orchestrated hero entrance, one signature scroll line in amber, and a distinct, section-specific reveal for each section, all behind `prefers-reduced-motion: no-preference` and scoped to `.js [data-inview='false']` so content is visible without JavaScript.",
+    "keyCharacteristics": [
+      "Dark-only (`color-scheme: dark`), OKLCH tokens throughout, all hues sampled from the golden-hour plate.",
+      "One face on a fixed specimen ladder; width axis, not a second family, makes the contrast.",
+      "Hairline rules and almanac tables instead of cards, panels, or glass.",
+      "Amber is the \"now\" signal: the current release, the scroll line, the primary CTA, metrics in running prose.",
+      "Sage means \"up\"; haze marks quiet secondary readings (sunset, changelog markers, stack wires)."
+    ],
+    "rules": [
+      {
+        "name": "The Sodium Lamp Rule",
+        "body": "Amber marks the present tense: what is current, live, or actionable. A past release, an inactive link, or a decorative flourish is never amber.",
+        "section": "colors"
+      },
+      {
+        "name": "The Status Light Rule",
+        "body": "Sage is reserved for \"up\" states and always pairs with the status dot or a status word. It is never a decorative accent.",
+        "section": "colors"
+      },
+      {
+        "name": "The Specimen Ladder Rule",
+        "body": "Section heads step down by weight of evidence: Changelog and Services at step-5, Signal and Stack at step-4, Credentials at step-3. A new section declares its rung with `--head-size`; it does not invent a size.",
+        "section": "typography"
+      },
+      {
+        "name": "The Width Axis Rule",
+        "body": "Tension comes from `font-variation-settings: 'wdth'`: 112-118 for specimens, 106-110 for titles, 100 for reading, 78 for annotations. Labels are never set in mono.",
+        "section": "typography"
+      },
+      {
+        "name": "The Clock Face Rule",
+        "body": "Fragment Mono is reserved for times, dates, and versions. If a value is not a reading of time, it is set in Archivo. The one built exception is the hero status strip, which is set in mono as a whole because it reads as a single instrument line around the live clock; it is not a precedent for mono labels elsewhere.",
+        "section": "typography"
+      },
+      {
+        "name": "The Hairline Rule",
+        "body": "Structure is drawn with 1px `rule` lines, never with filled surfaces. If a group needs separating, add a rule or air; do not add a panel.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do take every color from the OKLCH tokens and every size from the step ladder; declare section head size via `--head-size`.",
+      "Do separate content with 1px `rule` hairlines and vertical air; let tables, ledgers, and ruled lists carry structure.",
+      "Do pair every section head word with a compressed label margin note beside it, not above it.",
+      "Do reserve amber for the current, live, or actionable thing, and sage for \"up\" states with a dot.",
+      "Do give each new section its own reveal, inside `prefers-reduced-motion: no-preference` and scoped to `.js [data-inview='false']`.",
+      "Do keep the hero's plate overlap and dusk scrim confined to 60rem and up."
+    ],
+    "donts": [
+      "Don't wrap content in cards, filled panels, or glass. The boxes in the stack drawing are diagram notation, not cards, and belong only to diagrams.",
+      "Don't set labels, names, or prose in Fragment Mono; mono is for times, dates, and versions.",
+      "Don't add a second accent hue or use cold blue; the palette is sampled from the golden-hour plate.",
+      "Don't add a second persistent motion alongside the uptime line, or loop animations after the entrance.",
+      "Don't put a small label above a heading as an eyebrow; margin notes sit beside the head word.",
+      "Don't add hard or offset shadows; the only shadows are the two soft floating ones and the status halo."
+    ]
+  }
+}

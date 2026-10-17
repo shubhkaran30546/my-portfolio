@@ -1,0 +1,120 @@
+/* An almanac table of four readings, not a row of cards */
+.signal__table {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.signal__row {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: var(--space-2xs);
+  padding-block: var(--space-m);
+  border-bottom: 1px solid var(--rule);
+}
+
+.signal__row:first-child {
+  padding-top: 0;
+}
+
+.signal__row dt {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-s);
+  color: var(--ink-soft);
+}
+
+.signal__label {
+  color: var(--ink);
+}
+
+.signal__note {
+  color: var(--ink-faint);
+  text-align: right;
+}
+
+.signal__value {
+  display: inline-grid;
+  font-size: var(--step-5);
+  font-weight: 800;
+  font-variation-settings: 'wdth' 118;
+  line-height: 0.92;
+  letter-spacing: -0.04em;
+  font-variant-numeric: tabular-nums lining-nums;
+  color: var(--ink);
+}
+
+.signal__digits,
+.signal__ghost {
+  grid-area: 1 / 1;
+  white-space: nowrap;
+}
+
+.signal__ghost {
+  visibility: hidden;
+}
+
+.signal__suffix,
+.signal__sign {
+  color: var(--amber);
+}
+
+.signal__suffix {
+  font-size: 0.55em;
+  letter-spacing: -0.02em;
+  margin-left: 0.04em;
+  vertical-align: 0.62em;
+}
+
+@media (min-width: 40rem) {
+  .signal__table {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: var(--space-l);
+  }
+  .signal__row:nth-child(2) {
+    padding-top: 0;
+  }
+}
+
+@media (min-width: 80rem) {
+  .signal__table {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    column-gap: 0;
+  }
+  .signal__row {
+    padding: 0 var(--space-m) 0 var(--space-m);
+    border-bottom: 0;
+    border-left: 1px solid var(--rule);
+    gap: var(--space-s);
+  }
+  .signal__row:first-child {
+    padding-left: 0;
+    border-left: 0;
+  }
+  .signal__value {
+    font-size: clamp(4rem, 5.6vw, 6rem);
+    font-variation-settings: 'wdth' 106;
+  }
+  .signal__row dt {
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+  .signal__note {
+    text-align: left;
+  }
+}
+
+/* Section-specific reveal: rules draw in, numerals count up (in JS) */
+@media (prefers-reduced-motion: no-preference) {
+  .signal__row {
+    transition:
+      opacity 700ms var(--ease-out),
+      transform 700ms var(--ease-out);
+  }
+  .js .signal__table[data-inview='false'] .signal__row {
+    opacity: 0;
+    transform: translateY(1rem);
+  }
+  .signal__row:nth-child(2) { transition-delay: 90ms; }
+  .signal__row:nth-child(3) { transition-delay: 180ms; }
+  .signal__row:nth-child(4) { transition-delay: 270ms; }
+}

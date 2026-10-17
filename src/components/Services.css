@@ -1,0 +1,249 @@
+/* Featured service: Cardify, given the room of a magazine lead */
+.featured {
+  display: grid;
+  gap: var(--space-l);
+  padding-bottom: var(--space-xl);
+  border-bottom: 1px solid var(--rule);
+}
+
+.featured__title {
+  display: flex;
+  align-items: center;
+  gap: 0.25em;
+  margin-top: var(--space-s);
+  font-size: var(--step-5);
+  font-weight: 800;
+  font-variation-settings: 'wdth' 118;
+  line-height: 0.9;
+  letter-spacing: -0.045em;
+}
+
+.featured__mark {
+  width: 0.42em;
+  height: auto;
+  border-radius: 3px;
+}
+
+.featured__purpose {
+  margin-top: var(--space-m);
+  font-size: var(--step-2);
+  font-weight: 550;
+  line-height: 1.2;
+  letter-spacing: -0.015em;
+  max-width: 22ch;
+  text-wrap: balance;
+}
+
+.featured__context {
+  display: flex;
+  align-items: center;
+  gap: 0.55em;
+  margin-top: var(--space-m);
+  font-size: var(--step-0);
+  color: var(--sage);
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: var(--space-m);
+}
+
+.tags li {
+  font-size: var(--step--1);
+  font-variation-settings: 'wdth' 78;
+  font-weight: 500;
+  padding: 0.3em 0.7em;
+  border: 1px solid var(--rule-strong);
+  border-radius: 999px;
+  color: var(--ink-soft);
+}
+
+.featured__link {
+  margin-top: var(--space-m);
+}
+
+/* Index of the other services, offset into the page */
+.index {
+  margin-top: var(--space-l);
+}
+
+.index__row {
+  border-bottom: 1px solid var(--rule);
+}
+
+.index__link {
+  position: relative;
+  display: grid;
+  grid-template-columns: 4.5rem 1fr auto;
+  grid-template-areas:
+    'thumb title arrow'
+    'thumb purpose purpose'
+    'thumb tags tags'
+    'thumb state state';
+  column-gap: var(--space-s);
+  row-gap: 0.25rem;
+  padding-block: var(--space-m);
+  text-decoration: none;
+  color: var(--ink);
+}
+
+.index__thumb {
+  grid-area: thumb;
+  align-self: start;
+  width: 4.5rem;
+  aspect-ratio: 1;
+  overflow: hidden;
+  border-radius: 2px;
+  background: var(--dusk-850);
+}
+
+.index__thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.index__title {
+  grid-area: title;
+  font-size: var(--step-2);
+  font-weight: 750;
+  font-variation-settings: 'wdth' 110;
+  letter-spacing: -0.025em;
+  line-height: 1.1;
+  transition: color var(--dur-s) var(--ease-out);
+}
+
+.index__purpose {
+  grid-area: purpose;
+  color: var(--ink-soft);
+}
+
+.index__tags {
+  grid-area: tags;
+  color: var(--haze);
+}
+
+.index__state {
+  grid-area: state;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55em;
+  color: var(--ink-faint);
+}
+
+.index__arrow {
+  grid-area: arrow;
+  width: 1.4rem;
+  height: 1.4rem;
+  color: var(--ink-faint);
+  transition:
+    transform var(--dur-m) var(--ease-out),
+    color var(--dur-s) var(--ease-out);
+}
+
+.index__link:hover .index__title,
+.index__link:focus-visible .index__title {
+  color: var(--amber);
+}
+
+.index__link:hover .index__arrow,
+.index__link:focus-visible .index__arrow {
+  color: var(--amber);
+  transform: translate(0.2rem, -0.2rem);
+}
+
+@media (min-width: 52rem) {
+  .featured__main {
+    display: grid;
+    grid-template-columns: 7fr 5fr;
+    column-gap: var(--space-xl);
+    align-items: end;
+  }
+  .featured__title {
+    grid-column: 1 / -1;
+    font-size: var(--step-6);
+  }
+  .featured__purpose {
+    grid-column: 1;
+    grid-row: 2 / span 2;
+    align-self: start;
+  }
+  .featured__context,
+  .tags,
+  .featured__link {
+    grid-column: 2;
+  }
+  .featured__link {
+    justify-self: start;
+  }
+
+  /* Offset: the index starts a quarter in; the gutter holds the hover preview */
+  .index {
+    margin-left: 25%;
+    margin-top: var(--space-xl);
+  }
+
+  .index__link {
+    grid-template-columns: minmax(10rem, 1.1fr) 1.6fr minmax(8rem, 0.9fr) auto;
+    grid-template-areas:
+      'title purpose tags arrow'
+      'state purpose tags arrow';
+    column-gap: var(--space-m);
+    align-items: baseline;
+  }
+
+  .index__state {
+    align-self: start;
+  }
+
+  .index__arrow {
+    align-self: center;
+  }
+
+  /* The screenshot surfaces in the left gutter, beside the row it belongs to */
+  .index__thumb {
+    position: absolute;
+    right: calc(100% + var(--space-l));
+    top: 50%;
+    width: min(15rem, 30vw);
+    aspect-ratio: 4 / 3;
+    opacity: 0;
+    clip-path: inset(50% 0 50% 0);
+    transform: translateY(-50%);
+    pointer-events: none;
+    box-shadow: 0 24px 50px -20px oklch(0.08 0.03 286 / 0.85);
+    transition:
+      opacity var(--dur-s) var(--ease-out),
+      clip-path var(--dur-m) var(--ease-out);
+  }
+
+  .index__link:hover .index__thumb,
+  .index__link:focus-visible .index__thumb {
+    opacity: 1;
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+/* Section-specific reveal: the index rows are listed in one after another */
+@media (prefers-reduced-motion: no-preference) {
+  .featured,
+  .index__row {
+    transition:
+      opacity 700ms var(--ease-out),
+      transform 700ms var(--ease-out);
+  }
+  .js .featured[data-inview='false'] {
+    opacity: 0;
+    transform: translateY(1.25rem);
+  }
+  .js .index[data-inview='false'] .index__row {
+    opacity: 0;
+    transform: translateX(1.5rem);
+  }
+  .index__row:nth-child(1) { transition-delay: 0ms; }
+  .index__row:nth-child(2) { transition-delay: 70ms; }
+  .index__row:nth-child(3) { transition-delay: 140ms; }
+  .index__row:nth-child(4) { transition-delay: 210ms; }
+}

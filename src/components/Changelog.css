@@ -1,0 +1,121 @@
+.changelog {
+  display: grid;
+  gap: var(--space-xl);
+}
+
+.release {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-m);
+}
+
+.release__tag {
+  position: relative;
+}
+
+.release__version {
+  display: block;
+  font-size: var(--step-4);
+  font-weight: 800;
+  font-variation-settings: 'wdth' 118;
+  line-height: 0.9;
+  letter-spacing: -0.04em;
+  color: var(--ink-faint);
+}
+
+.release[data-current='true'] .release__version {
+  color: var(--amber);
+}
+
+.release__dates {
+  margin-top: var(--space-xs);
+  color: var(--ink);
+}
+
+.release__live {
+  display: flex;
+  align-items: center;
+  gap: 0.55em;
+  margin-top: 0.3rem;
+  color: var(--sage);
+}
+
+.release__company {
+  font-size: var(--step-2);
+  font-weight: 700;
+  font-variation-settings: 'wdth' 106;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+.release__meta {
+  margin-top: 0.4rem;
+  color: var(--ink-soft);
+}
+
+.release__notes {
+  margin-top: var(--space-m);
+  border-top: 1px solid var(--rule);
+  max-width: 68ch;
+}
+
+.release__notes li {
+  position: relative;
+  padding: var(--space-xs) 0 var(--space-xs) 1.6rem;
+  border-bottom: 1px solid var(--rule);
+  color: var(--ink-soft);
+  text-wrap: pretty;
+}
+
+.release__notes li::before {
+  content: '+';
+  position: absolute;
+  left: 0.2rem;
+  top: var(--space-xs);
+  font-family: var(--font-mono);
+  color: var(--haze);
+}
+
+@media (min-width: 52rem) {
+  .release {
+    grid-template-columns: minmax(11rem, 3fr) 9fr;
+    gap: var(--space-l);
+  }
+
+  /* The deploy line: a hairline running down the version column */
+  .release__tag {
+    padding-left: var(--space-m);
+    border-left: 1px solid var(--rule);
+  }
+  .release[data-current='true'] .release__tag {
+    border-left-color: var(--amber);
+  }
+  .release__tag {
+    position: sticky;
+    top: 6rem;
+    align-self: start;
+  }
+}
+
+/* Section-specific reveal: the release ships — tag first, notes roll out after */
+@media (prefers-reduced-motion: no-preference) {
+  .release__tag,
+  .release__body {
+    transition:
+      opacity 800ms var(--ease-out),
+      transform 800ms var(--ease-out),
+      clip-path 900ms var(--ease-out);
+  }
+  .release__body {
+    transition-delay: 120ms;
+  }
+  .js .release[data-inview='false'] .release__tag {
+    opacity: 0;
+    transform: translateX(-0.75rem);
+  }
+  .js .release[data-inview='false'] .release__body {
+    opacity: 0;
+    clip-path: inset(0 0 30% 0);
+    transform: translateY(1rem);
+  }
+}

@@ -1,0 +1,60 @@
+/* Dusk Almanac — tokens. Palette sampled from the golden-hour plate (IMG_4993). */
+:root {
+  /* Ground: dusk indigo-charcoal, the sky after the sun drops */
+  --dusk-950: oklch(0.185 0.028 286);
+  --dusk-900: oklch(0.225 0.032 286);
+  --dusk-850: oklch(0.255 0.034 286);
+  --rule: oklch(0.34 0.03 288);
+  --rule-strong: oklch(0.46 0.035 288);
+
+  /* Ink: warm paper-white under sodium light */
+  --ink: oklch(0.95 0.015 75);
+  --ink-soft: oklch(0.83 0.025 70);
+  --ink-faint: oklch(0.7 0.03 70);
+
+  /* Accent: sodium amber, evolved from the old orange */
+  --amber: oklch(0.81 0.14 68);
+  --amber-strong: oklch(0.73 0.165 55);
+  --amber-wash: oklch(0.81 0.14 68 / 0.1);
+  --on-amber: oklch(0.2 0.03 286);
+
+  /* Quiet secondaries from the horizon and the planters */
+  --haze: oklch(0.8 0.07 25);
+  --sage: oklch(0.8 0.085 145);
+
+  /* Type */
+  --font-sans: 'Archivo Variable', 'Archivo', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'Fragment Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace;
+
+  /* Specimen ladder: one face, fixed steps, never ad hoc */
+  --step--1: clamp(0.78rem, 0.76rem + 0.1vw, 0.84rem);
+  --step-0: clamp(1rem, 0.97rem + 0.15vw, 1.0625rem);
+  --step-1: clamp(1.2rem, 1.1rem + 0.45vw, 1.45rem);
+  --step-2: clamp(1.45rem, 1.25rem + 0.9vw, 2rem);
+  --step-3: clamp(1.9rem, 1.5rem + 1.9vw, 3.1rem);
+  --step-4: clamp(2.6rem, 1.9rem + 3.4vw, 5rem);
+  --step-5: clamp(3rem, 1.6rem + 6.6vw, 7.5rem);
+  --step-6: clamp(3.1rem, 0.9rem + 10.6vw, 11.5rem);
+
+  /* Space: one rhythm */
+  --space-3xs: 0.25rem;
+  --space-2xs: 0.5rem;
+  --space-xs: 0.75rem;
+  --space-s: 1rem;
+  --space-m: 1.5rem;
+  --space-l: 2.25rem;
+  --space-xl: clamp(3rem, 2rem + 4vw, 5rem);
+  --space-2xl: clamp(5rem, 3rem + 8vw, 10rem);
+
+  --gutter: clamp(1rem, 0.4rem + 3vw, 3rem);
+  --max: 88rem;
+
+  /* Motion */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-s: 180ms;
+  --dur-m: 420ms;
+  --dur-l: 900ms;
+
+  color-scheme: dark;
+}
