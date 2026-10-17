@@ -1,18 +1,24 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.f5eea7b9.css",
-    "main.js": "/my-portfolio/static/js/main.39d88e6c.js",
+    "main.css": "/my-portfolio/static/css/main.3e0ef624.css",
+    "main.js": "/my-portfolio/static/js/main.4f6fbcd5.js",
     "static/js/948.c6c0ad3a.chunk.js": "/my-portfolio/static/js/948.c6c0ad3a.chunk.js",
-    "static/js/453.15a626a8.chunk.js": "/my-portfolio/static/js/453.15a626a8.chunk.js",
-    "static/media/background_image.png": "/my-portfolio/static/media/background_image.59f1fc6fb8173ce2ed41.png",
+    "static/media/archivo-latin-wdth-normal.woff2": "/my-portfolio/static/media/archivo-latin-wdth-normal.bb1dad4de4bf8ae0cf6f.woff2",
+    "static/media/archivo-latin-ext-wdth-normal.woff2": "/my-portfolio/static/media/archivo-latin-ext-wdth-normal.009725e3b373d5e8f0a1.woff2",
+    "static/media/archivo-vietnamese-wdth-normal.woff2": "/my-portfolio/static/media/archivo-vietnamese-wdth-normal.164cfad175548d8d65ee.woff2",
+    "static/media/fragment-mono-latin-400-normal.woff2": "/my-portfolio/static/media/fragment-mono-latin-400-normal.0fadcb7c0f61b354ce04.woff2",
+    "static/media/fragment-mono-latin-400-normal.woff": "/my-portfolio/static/media/fragment-mono-latin-400-normal.af8a11c1d8c44bb179fa.woff",
+    "static/media/fragment-mono-latin-ext-400-normal.woff2": "/my-portfolio/static/media/fragment-mono-latin-ext-400-normal.72003a4e98dfa14adf45.woff2",
+    "static/media/fragment-mono-latin-ext-400-normal.woff": "/my-portfolio/static/media/fragment-mono-latin-ext-400-normal.2396a3c6b3a74ac42334.woff",
+    "static/media/fragment-mono-cyrillic-ext-400-normal.woff2": "/my-portfolio/static/media/fragment-mono-cyrillic-ext-400-normal.91898828fb9624820ac4.woff2",
     "index.html": "/my-portfolio/index.html",
-    "main.f5eea7b9.css.map": "/my-portfolio/static/css/main.f5eea7b9.css.map",
-    "main.39d88e6c.js.map": "/my-portfolio/static/js/main.39d88e6c.js.map",
-    "948.c6c0ad3a.chunk.js.map": "/my-portfolio/static/js/948.c6c0ad3a.chunk.js.map",
-    "453.15a626a8.chunk.js.map": "/my-portfolio/static/js/453.15a626a8.chunk.js.map"
+    "static/media/fragment-mono-cyrillic-ext-400-normal.woff": "/my-portfolio/static/media/fragment-mono-cyrillic-ext-400-normal.60b6c398bfce11e2cdcf.woff",
+    "main.3e0ef624.css.map": "/my-portfolio/static/css/main.3e0ef624.css.map",
+    "main.4f6fbcd5.js.map": "/my-portfolio/static/js/main.4f6fbcd5.js.map",
+    "948.c6c0ad3a.chunk.js.map": "/my-portfolio/static/js/948.c6c0ad3a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f5eea7b9.css",
-    "static/js/main.39d88e6c.js"
+    "static/css/main.3e0ef624.css",
+    "static/js/main.4f6fbcd5.js"
   ]
 }
